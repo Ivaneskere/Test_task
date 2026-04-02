@@ -1,0 +1,61 @@
+.variablesPage {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.variablesPageText {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #111827;
+}
+
+.variablesPagePar {
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid;
+}
+
+.variablesPageParLoad {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+}
+
+.variablesPageError {
+    background: #fef2f2;
+    border-color: #fecaca;
+    color: #dc2626;
+}
+
+.variablesPageList {
+    display: grid;
+    gap: 16px;
+}
+
+.variablesPageItem {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px;
+    background: #ffffff;
+}
+
+.variablesPageTextName {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.variablesPageLink {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.variablesPageLink:hover {
+    color: #1d4ed8;
+}

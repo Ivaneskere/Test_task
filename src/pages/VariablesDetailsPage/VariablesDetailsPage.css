@@ -1,0 +1,53 @@
+.variableSection {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+.variableText {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.variablePar {
+    margin-top: 12px;
+    color: #374151;
+}
+
+.variableMassageOrError {
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid;
+}
+
+.variableMassageLoad {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1d4ed8;
+}
+
+.variableMassageError {
+    background: #fef2f2;
+    border-color: #fecaca;
+    color: #dc2626;
+}
+
+.variableBlock {
+    margin-top: 16px;
+    color: #374151;
+}
+
+.variableBlock p {
+    margin-bottom: 12px;
+}
+
+.variableBlock ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 12px;
+}
+
+.variableBlock li {
+    margin-bottom: 4px;
+}

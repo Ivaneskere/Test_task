@@ -1,0 +1,67 @@
+.vinFrom {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.vinFormText {
+    font-size: 28px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.vinFormPar {
+    margin-top: 8px;
+    color: #6b7280;
+}
+
+.vinFormBlockForForm {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+@media (min-width: 640px) {
+    .vinFormBlockForForm {
+        flex-direction: row;
+    }
+}
+
+.vinFormInput {
+    flex: 1;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    padding: 12px 16px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.vinFormInput:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px #dbeafe;
+}
+
+.vinFormInputBtn {
+    border: none;
+    border-radius: 12px;
+    padding: 12px 20px;
+    font-weight: 500;
+    color: white;
+    background: #2563eb;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.vinFormInputBtn:hover {
+    background: #1d4ed8;
+}
+
+.vinFormInputBtn:active {
+    transform: scale(0.97);
+}
